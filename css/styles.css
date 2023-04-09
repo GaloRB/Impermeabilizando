@@ -45,7 +45,7 @@
         border: none;
         margin: 0 auto;
         display: block;
-        color: #2b2828;
+        color: #fff;
         font-size: 2rem;
         margin: 1.8rem auto;
         padding: 1rem;
@@ -125,10 +125,6 @@
     .galeria {
         background-color: #f5efd8;
         padding-bottom: 1rem;
-    }
-    
-    .galeria a {
-        color: black;
     }
     
     .none {
@@ -603,7 +599,8 @@
     
     .servicios p {
         font-size: 2rem;
-        margin: 2rem 1rem 4rem;
+        margin: 2rem 1rem 2rem;
+        min-height: 18rem;
     }
     
     .servicios-img {
@@ -612,10 +609,6 @@
     
     .servicios-img img {
         max-width: 90%;
-    }
-    
-    .servicios a {
-        color: black;
     }
     
     .amp {
@@ -631,7 +624,7 @@
         .servicios p {
             text-align: center;
             font-size: 3rem;
-            margin: 4rem 2rem;
+            margin: 4rem 2rem 2rem;
         }
         .btn {
             font-size: 2rem;
@@ -646,10 +639,12 @@
         .contenedor-serv {
             display: flex;
             flex-basis: calc(33.3% - 1rem);
+            padding: 10px;
         }
         .contenedor-servicios {
             box-shadow: 2rem 1rem 3rem #353535;
             transition: all 0.5s ease;
+            max-width: 300px;
         }
         .contenedor-servicios:hover {
             box-shadow: 3rem 1rem 1rem #353535;
@@ -673,8 +668,8 @@
         }
         .servicios p {
             text-align: center;
-            font-size: 2.5rem;
-            margin: 2rem auto 4rem auto;
+            font-size: 1.8rem;
+            margin: 2rem 1rem 2rem 1rem;
         }
         .btn {
             font-size: 2rem;
@@ -690,10 +685,12 @@
         .contenedor-serv {
             display: flex;
             flex-basis: calc(33.3% - 1rem);
+            padding: 10px;
         }
         .contenedor-servicios {
             box-shadow: 2rem 1rem 3rem #353535;
             transition: all 0.5s ease;
+            max-width: 400px;
         }
         .contenedor-servicios:hover {
             box-shadow: 3rem 1rem 1rem #353535;
@@ -721,7 +718,7 @@
         }
         .servicios p {
             text-align: center;
-            font-size: 2.5rem;
+            font-size: 2rem;
             margin: 3rem 2.5rem;
         }
     }
